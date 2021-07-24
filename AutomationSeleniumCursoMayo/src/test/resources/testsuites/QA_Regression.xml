@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_QA" parallel="tests" thread-count="2"> <!--cuantos scripts va a correr de manera automatica  -->
+<test name="TC001_Admin_SearchEmployee">
+<classes>
+<class name="com.opensource.admin.qa.TC001_Admin_SearchEmployee"/>
+</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+

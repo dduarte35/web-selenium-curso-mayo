@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.opensource.admin.qa.TC001_Admin_SearchEmployee">
+      <class name="com.opensource.admin.qa.TC004_Admin_DeleteUser">
         <methods>
-          <include name="TC001_Admin_SearchEmployee_Script"/>
-          <include name="afterTest"/>
+          <include name="TC004_Admin_DeleteUser_Script"/>
           <include name="beforeTest"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- com.opensource.admin.qa.TC001_Admin_SearchEmployee -->
+      </class> <!-- com.opensource.admin.qa.TC004_Admin_DeleteUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
